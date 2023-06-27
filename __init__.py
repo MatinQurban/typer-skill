@@ -13,7 +13,7 @@ class Typer(MycroftSkill):
     def handle_typer(self, message):
         self.speak_dialog('Waiting')
         self.wait_while_speaking()
-        play_mp3('/home/pi/mycroft-core/mycroft/skills/typer-skill.mycroftai/typer.mp3')
+        play_mp3('./typer-skill/typer.mp3')
         self.speak_dialog('typer')
 
 
